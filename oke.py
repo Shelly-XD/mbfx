@@ -55,11 +55,24 @@ ua = random.choice(['Mozilla/5.0 (Linux; Android 9; RMX1941) AppleWebKit/537.36 
 'Mozilla/5.0 (Linux; Android 8.0.0; ATU-L11 Build/HUAWEIATU-L11; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]'])
 ##### LOGO #####
 logo = """
-  __  __ ____  _____
- |  \/  | __ )|  ___| *au : rozhak
- | |\/| |  _ \| |_    *fb : fb.com/rozhak.xyz
- | |  | | |_) |  _|   *gh : github.com/r0zhak
- |_|  |_|____/|_|     *yt : youtube.com/rozhakid
+
+ ____  _   _ _____ _     _  __   __
+/ ___|| | | | ____| |   | | \ \ / /
+\___ \| |_| |  _| | |   | |  \ V / 
+ ___) |  _  | |___| |___| |___| |
+|____/|_| |_|_____|_____|_____|_|
+__  __  _   _  ___    _    _   _ 
+\ \/ / | \ | |/ _ \  / \  | | | |
+ \  /  |  \| | | | |/ _ \ | |_| |
+ /  \  | |\  | |_| / ___ \|  _  |
+/_/\_\ |_| \_|\___/_/   \_\_| |_|
+ ---------------------------------------------------
+ ➣ Author    : Shelly X Noah
+ ➣ GitHub    : https://github.com/Shelly-XD
+ ---------------------------------------------------
+ ➣ Instagram : -----
+ ➣ Facebook  : -----
+ ---------------------------------------------------
 """
 ips=None
 try:
@@ -184,16 +197,16 @@ def menu():
     login()
   os.system("clear")
   print logo
-  print ('\n *•> Nama : '+nm)
-  print (' *•> Akun ID : '+id)
-  print (' *•> Tanggal Lahir : '+tl)
+  print ('\n [*]•> Nama : '+nm)
+  print (' [*]•> Akun ID : '+id)
+  print (' [*]•> Tanggal Lahir : '+tl)
 
-  print ('\n *1 Crack ID Dari Teman')
-  print (' *2 Crack ID Dari Publik')
-  print (' *3 Crack ID Dari Followers')
-  print (' *4 Crack ID Dari Like')
-  print (' *5 Lihat Hasil Crack')
-  print (' *0 Keluar (Hapus Token/Cookies)\n')
+  print ('\n [*]1 Crack ID Dari Teman')
+  print (' [*]2 Crack ID Dari Publik')
+  print (' [*]3 Crack ID Dari Followers')
+  print (' [*]4 Crack ID Dari Like')
+  print (' [*]5 Lihat Hasil Crack')
+  print (' [*]0 Keluar (Hapus Token/Cookies)\n')
   mn=raw_input(" *-> Input : ")
   if mn=="":
 	print (' *! Isi Dengan Benar')
