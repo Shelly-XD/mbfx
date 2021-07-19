@@ -110,8 +110,8 @@ def jalan(z):
 def login():
     os.system('clear')
     print logo
-    print "\n *! Ketik *T* Jika Login Menggunakan Token"
-    print " *! Ketik *C* Jika Login Menggunakan Cookie"
+    print "\n [*]! Ketik [*1] Jika Login Menggunakan Token"
+    print " [*]! Ketik [*2] Jika Login Menggunakan Cookie"
     lg = raw_input('\n *-> Input : ')
     if lg == '':
         os.sys.exit()
@@ -132,7 +132,7 @@ def login():
         except requests.exceptions.SSLError:
                 print (" *! Tidak Ada Koneksi")
                 exit()
-    elif lg == '1' or lg == '1':
+    elif lg == '2' or lg == '2':
         try:
 		cookie = raw_input(" *-> Cookie : ")
                 data = {
