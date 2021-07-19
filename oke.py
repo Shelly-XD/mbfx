@@ -114,7 +114,7 @@ def login():
     lg = raw_input('\n *-> Input : ')
     if lg == '':
         os.sys.exit()
-    elif lg == 'T' or lg == 't':
+    elif lg == '1' or lg == '1':
         toket = raw_input(" *-> Token : ") # Login Token
         try:
                 otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
@@ -131,7 +131,7 @@ def login():
         except requests.exceptions.SSLError:
                 print (" *! Tidak Ada Koneksi")
                 exit()
-    elif lg == 'C' or lg == 'c':
+    elif lg == '1' or lg == '1':
         try:
 		cookie = raw_input(" *-> Cookie : ")
                 data = {
