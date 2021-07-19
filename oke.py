@@ -1,4 +1,5 @@
 #-*-coding:utf-8-*-
+#DI RECODE OLEH A DAN SHELLY CHAN KU TIADA TANDING GA SEPERTI WAIFU LAIN NYA YG LONT
 
 import requests,bs4,sys,os,subprocess
 import requests,sys,random,time,re,base64,json
