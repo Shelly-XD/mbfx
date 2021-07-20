@@ -194,7 +194,7 @@ def menu():
     login()
   os.system("clear")
   print logo
-  print (' Selamat Datang : '+mm)
+  print (' Selamat Datang :'+mm)
   print ('\n [*]•> Nama : '+nm)
   print (' [*]•> Akun ID : '+id)
   print (' [*]•> Tanggal Lahir : '+tl)
