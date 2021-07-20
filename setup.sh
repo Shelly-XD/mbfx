@@ -9,16 +9,17 @@ echo "      |____/|_| |_|_____|_____|_____|_|"
 pip install requests
 clear
 echo
-echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
-echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
-echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
-echo
+echo "       ____  _   _ _____ _     _  __   __ "
+echo "      / ___|| | | | ____| |   | | \ \ / /"
+echo "      \___ \| |_| |  _| | |   | |  \ V /"
+echo "        __) |  _  | |___| |___| |___| |"
+echo "      |____/|_| |_|_____|_____|_____|_|"
 pip install mechanize
 clear
 echo
-echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
-echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
-echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
+echo "        "
+echo "        "
+echo "        "
 echo
 pip install requests bs4
 clear
@@ -71,5 +72,5 @@ echo
 echo
 echo "       [√] install commando done..."
 echo
-echo "     type python Cr4ck.py to continue "
+echo "     type python2 shelly.py to continue "
 echo
