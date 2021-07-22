@@ -52,23 +52,23 @@ ua = random.choice(['Mozilla/5.0 (Linux; Android 9; RMX1941) AppleWebKit/537.36 
 'Mozilla/5.0 (Linux; Android 9; LG-H870 Build/PKQ1.190522.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]',
 'Mozilla/5.0 (Linux; Android 10; RMX1971 Build/QKQ1.190918.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/326.0.0.34.120;]',
 'Mozilla/5.0 (Linux; Android 10; Redmi Note 9 Pro Build/QKQ1.191215.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.77 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]',
-'Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]',
+'Mozilla/5.0 (Linux; Android 9; Redmi S2 Build/PKQ1.181203.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]
+'Nokia6303classic/2.0 (10.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ [FB_IAB/FB4A;FBAV/325.0.0.36.170;]',
 'Mozilla/5.0 (Linux; Android 8.0.0; ATU-L11 Build/HUAWEIATU-L11; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/325.0.0.36.170;]'])
 ##### LOGO #####
 logo = """
+_________ ___ ______________.____    .____    _____.___.®
+ /   _____//   |   \_   _____/|    |   |    |   \__  |   |
+ \_____  \/    ~    \    __)_ |    |   |    |    /   |   |
+ /        \    Y    /        \|    |___|    |___ \____   |
+/_______  /\___|_  /_______  /|_______ \_______ \/ ______|
+        \/       \/        \/         \/       \/\/
 
-   _____ __         ____          __  ____
-  / ___// /_  ___  / / /_  __     /  |/  (_)___ _                         \__ \/ __ \/ _ \/ / / / / /  / /|_/ / / __ `/
- ___/ / / / /  __/ / / /_/ /     / /  / / / /_/ /
-/____/_/ /_/\___/_/_/\__, /     /_/  /_/_/\__,_/
-                    /____/
----------------------------------------------------
- ➣ Author    : Shelly X Noah
+--------------------------------------------------
+ ➣ Di Recode : Shelly X Noah
  ➣ GitHub    : https://github.com/Shelly-XD
- ---------------------------------------------------
- ➣ Instagram : -----
- ➣ Facebook  : -----
- ---------------------------------------------------
+--------------------------------------------------
+
 """
 ips=None
 try:
